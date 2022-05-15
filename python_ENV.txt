@@ -55,5 +55,8 @@
 # pip install --upgrade pip
 # pip install jupyter matplotlib h5py pandas
 # pip install dsharp_opac
-
-
+# conda install numba  # or pip install numba
+# conda install cudatoolkit   # (Only work when there is a NVIDIA GPU)
+#    check the system information under linux command line
+# linux> numba -s
+# pip install tqdm progressbar2
