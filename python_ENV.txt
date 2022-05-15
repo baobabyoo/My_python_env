@@ -46,3 +46,14 @@
         # pip install dsharp_opac
         # pip install pandas
 
+# (Created on 2022.May.22)
+# h5py (https://docs.h5py.org/en/stable/)
+# numba (https://numba.pydata.org/)
+# pandas (https://pandas.pydata.org/)
+#
+# conda create --name sfmodel python=3.9 numpy astropy scipy
+# pip install --upgrade pip
+# pip install jupyter matplotlib h5py pandas
+# pip install dsharp_opac
+
+
