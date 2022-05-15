@@ -1,0 +1,48 @@
+##### Python environments ##################################
+
+# Creating conda environment
+# conda create --name environment_name program_name
+# e.g. linux> conda create --name uvcombine scipy
+#
+# Activating conda environment
+# source activate environment_name
+# e.g. linux> source activate uvcombine
+#
+# DeActivating conda environment
+# source deactivate
+#
+# Deleting a conda environment
+# conda remove --name environment_name --all
+#
+# Listing all environments
+# conda info --envs
+#
+# Listing the available package in the current environment
+# conda list
+#
+# Installing conda-available package
+# conda install --name environment_name package_name
+#
+# Removing a package
+# conda remove --name environment_name packagename
+
+
+## environment nanoC2022
+# conda create --name nanoC2022 python=3.7 astropy scipy
+        # pip install --upgrade pip
+        # pip install jupyter matplotlib h5py aplpy pyqt5
+        # pip install emcee corner tqdm
+        # pip install dsharp_opac
+        # SPHERE IRDAP pipeline (https://irdap.readthedocs.io/en/latest/instructions.html)
+        # pip install scikit-image==0.15.0
+        # pip install irdap
+        # pip install irdap --upgrade
+        # irdap --help
+
+# conda create --name zztau2022 python=3.9 astropy scipy
+        # pip install --upgrade pip
+        # pip install jupyter matplotlib h5py aplpy pyqt5
+        # pip install emcee corner tqdm
+        # pip install dsharp_opac
+        # pip install pandas
+
